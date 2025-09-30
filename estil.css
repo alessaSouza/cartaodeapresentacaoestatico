@@ -1,0 +1,72 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Cor de fundo suave */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Ocupa toda a altura da tela */
+    margin: 0;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #fff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Largura do formulário */
+}
+
+/* Título do formulário */
+h1 {
+    text-align: center;
+    color: #333; /* Cor escura para o título */
+    margin-bottom: 20px;
+}
+
+/* Estilo para os rótulos dos campos */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555; /* Cor do texto do rótulo */
+    font-weight: bold;
+}
+
+/* Estilo dos campos de entrada */
+input {
+    width: 100%; /* Campo de entrada ocupa toda a largura do formulário */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd; /* Bordas suaves */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px;
+}
+
+/* Estilo do botão */
+button {
+    width: 100%; /* Botão ocupa toda a largura do formulário */
+    padding: 10px;
+    background-color: #4CAF50; /* Cor verde para o botão */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px;
+    cursor: pointer; /* Cursor de mão ao passar por cima */
+}
+
+/* Efeito hover no botão */
+button:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+}
+
+
+
+
